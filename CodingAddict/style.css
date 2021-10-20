@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Palette Mosaic", cursive;
+  background-color: whitesmoke;
+}
+
+#navbar {
+  background-color: white;
+  height: 90px;
+  box-shadow: 0 7px 12px -12px black;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.nav-logo {
+  margin-left: 10px;
+  text-align: left;
+  flex: 1;
+}
+
+.nav-toggle {
+  border: none;
+  color: rgb(24, 171, 216);
+  font-size: 1.5rem;
+  background-color: white;
+  display: none;
+  margin-right: 10px;
+}
+
+ul {
+  list-style: none;
+  flex: 1;
+}
+
+li {
+  display: inline-block;
+  padding: 0 7px;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover {
+  color: rgb(24, 171, 216);
+}
+
+.nav-link {
+  font-size: 1.25em;
+}
+
+.social-icons {
+  text-align: right;
+  margin-right: 10px;
+}
+
+.social-icons li a {
+  color: rgb(24, 171, 216);
+}
+
+#toggle-list {
+  background-color: white;
+  box-shadow: 0 7px 12px -12px black;
+  overflow: hidden;
+}
+
+#toggle-list:hover {
+  max-height: 500px;
+  transition: max-height 0.25s ease-in;
+}
+
+.toggle-link {
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.toggle-link a {
+  width: 100%;
+  display: block;
+}
+
+@media only screen and (max-width: 1050px) {
+  .nav-toggle {
+    display: block;
+    cursor: pointer;
+  }
+
+  #toggle-list {
+    height: 0;
+  }
+
+  .toggle-link:hover {
+    background-color: rgb(24, 171, 216);
+  }
+
+  .toggle-link a:hover {
+    color: white;
+  }
+
+  #nav-links,
+  .social-icons {
+    display: none;
+  }
+}
