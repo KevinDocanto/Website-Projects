@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Palette Mosaic", cursive;
+  background-color: #e4ecec;
+}
+
+nav {
+  margin-bottom: 200px;
+  background-color: white;
+  box-shadow: 0 7px 10px -8px black;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+nav #nav-links {
+  margin: auto;
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+}
+
+nav .nav-link a {
+  color: black;
+  font-size: 2rem;
+}
+
+section {
+  margin: auto;
+  width: 600px;
+  text-align: center;
+  background-color: black;
+  color: rgb(241, 240, 240);
+  font-size: 2rem;
+  letter-spacing: 2px;
+  padding: 10px 0;
+  border-radius: 10px;
+}
+
+h1,
+h2 {
+  display: inline-block;
+}
+
+.container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.btn-light {
+  border: black solid 2px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.btn-light:hover {
+  background-color: rgb(145, 186, 199);
+}
