@@ -15,4 +15,7 @@ row.click(function () {
 
     console.log(this);
   }
+
+  let d = row;
+  console.log("testing");
 });
