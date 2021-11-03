@@ -12,5 +12,7 @@ row.click(function () {
     this.prepend(mark);
 
     document.cookie = "name=kevin;";
+
+    console.log(this);
   }
 });
