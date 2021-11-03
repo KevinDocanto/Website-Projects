@@ -1,7 +1,5 @@
 const row = $(".row");
 
-document.cookie = "name=kevin;";
-
 row.click(function () {
   if ($(this).find(".mark").length > 0)
     $(this)[0].removeChild($(this)[0].firstChild);
@@ -12,6 +10,7 @@ row.click(function () {
     mark.classList.add("mark");
     mark.append(x);
     this.prepend(mark);
+    document.cookie = "name=kevin;";
   }
 
   console.log(this);
