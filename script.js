@@ -10,6 +10,7 @@ row.click(function () {
     mark.classList.add("mark");
     mark.append(x);
     this.prepend(mark);
+
     document.cookie = "name=kevin;";
   }
 });
