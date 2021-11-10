@@ -1,3 +1,5 @@
-# Weather API
+# Website Projects
 
-Weather API website tells the user the temperature (Fahrenheit) of the city/state that they typed.
+These are my favorite projects I have made so far.
+
+To check it, just download the project you would wish to see and open the index.html file
